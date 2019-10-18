@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "exammodul2.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/exammodul2.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/exammodul2.Core.dll": {}
+        }
+      },
+      "exammodul2.Storage.Json/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "exammodul2.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/exammodul2.Storage.Json.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/exammodul2.Storage.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "exammodul2.Core/1.0.0": {
+      "type": "project",
+      "path": "../exammodul2.Core/exammodul2.Core.csproj",
+      "msbuildProject": "../exammodul2.Core/exammodul2.Core.csproj"
+    },
+    "exammodul2.Storage.Json/1.0.0": {
+      "type": "project",
+      "path": "../exammodul2.Storage.Json/exammodul2.Storage.Json.csproj",
+      "msbuildProject": "../exammodul2.Storage.Json/exammodul2.Storage.Json.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "exammodul2.Core >= 1.0.0",
+      "exammodul2.Storage.Json >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lorella.tundisi\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\lorella.tundisi\\Desktop\\exam-modul e-2\\exammodul2\\exammodul2\\exammodul2.Terminal\\exammodul2.Terminal.csproj",
+      "projectName": "exammodul2.Terminal",
+      "projectPath": "C:\\Users\\lorella.tundisi\\Desktop\\exam-modul e-2\\exammodul2\\exammodul2\\exammodul2.Terminal\\exammodul2.Terminal.csproj",
+      "packagesPath": "C:\\Users\\lorella.tundisi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lorella.tundisi\\Desktop\\exam-modul e-2\\exammodul2\\exammodul2\\exammodul2.Terminal\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\lorella.tundisi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "C:\\Users\\lorella.tundisi\\Desktop\\exam-modul e-2\\exammodul2\\exammodul2\\exammodul2.Core\\exammodul2.Core.csproj": {
+              "projectPath": "C:\\Users\\lorella.tundisi\\Desktop\\exam-modul e-2\\exammodul2\\exammodul2\\exammodul2.Core\\exammodul2.Core.csproj"
+            },
+            "C:\\Users\\lorella.tundisi\\Desktop\\exam-modul e-2\\exammodul2\\exammodul2\\exammodul2.Storage.Json\\exammodul2.Storage.Json.csproj": {
+              "projectPath": "C:\\Users\\lorella.tundisi\\Desktop\\exam-modul e-2\\exammodul2\\exammodul2\\exammodul2.Storage.Json\\exammodul2.Storage.Json.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
